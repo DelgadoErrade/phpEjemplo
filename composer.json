@@ -1,0 +1,25 @@
+{
+    "name": "delgadoerrade/phpcurso",
+    "description": "Curso basico de PHP",
+    "type": "project",
+    "require": {
+        "illuminate/database": "5.5",
+        "dompdf/dompdf": "^0.8.2"
+    },
+    "autoload":{
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jose Delgado",
+            "email": "delgadoerrade@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "composer/composer": "^1.10@dev"
+    }
+}

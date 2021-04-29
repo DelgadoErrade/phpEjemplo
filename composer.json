@@ -3,7 +3,7 @@
     "description": "Curso basico de PHP",
     "type": "project",
     "require": {
-        "illuminate/database": "5.5",
+        "illuminate/database": "6.20.26",
         "dompdf/dompdf": "^0.8.2"
     },
     "autoload":{
